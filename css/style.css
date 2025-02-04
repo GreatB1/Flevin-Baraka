@@ -19,20 +19,22 @@ header{
     z-index: -1; /* Place the particles behind other elements */
 }
 
+/* css/style.css */
+
 .glow {
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5), 
-                0 0 30px rgba(255, 255, 255, 0.4), 
-                0 0 40px rgba(255, 255, 255, 0.3), 
-                0 0 50px rgba(255, 255, 255, 0.2), 
-                0 0 60px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.5),   /* Blue color with 50% opacity */
+                0 0 30px rgba(0, 0, 255, 0.4),   /* Blue color with 40% opacity */
+                0 0 40px rgba(0, 0, 255, 0.3),   /* Blue color with 30% opacity */
+                0 0 50px rgba(0, 0, 255, 0.2),   /* Blue color with 20% opacity */
+                0 0 60px rgba(0, 0, 255, 0.1);   /* Blue color with 10% opacity */
     transition: box-shadow 0.3s ease-in-out;
 }
 
 .glow:hover {
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.7), 
-                0 0 40px rgba(255, 255, 255, 0.6), 
-                0 0 50px rgba(255, 255, 255, 0.5), 
-                0 0 60px rgba(255, 255, 255, 0.4), 
-                0 0 70px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 30px rgba(0, 0, 255, 0.7),   /* Blue color with 70% opacity */
+                0 0 40px rgba(0, 0, 255, 0.6),   /* Blue color with 60% opacity */
+                0 0 50px rgba(0, 0, 255, 0.5),   /* Blue color with 50% opacity */
+                0 0 60px rgba(0, 0, 255, 0.4),   /* Blue color with 40% opacity */
+                0 0 70px rgba(0, 0, 255, 0.3);   /* Blue color with 30% opacity */
 }
