@@ -28,7 +28,7 @@ header{
                 0 0 40px rgba(0, 0, 255, 0.3),   /* Blue color with 30% opacity */
                 0 0 50px rgba(0, 0, 255, 0.2),   /* Blue color with 20% opacity */
                 0 0 60px rgba(0, 0, 255, 0.1);   /* Blue color with 10% opacity */
-    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.1s ease-in-out;
 }
 
 .glow:hover {
