@@ -1,4 +1,4 @@
-header{
+RRheader{
     background: url(../images/Baraka_NyuAd.jpg);
     background-size: cover;
     background-position: center;
@@ -15,8 +15,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    z-index: -1; /* Place the particles behind other elements */
+    height: 100%;    z-index: -1; /* Place the particles behind other elements */
 }
 
 /* css/style.css */
